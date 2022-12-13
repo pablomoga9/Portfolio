@@ -8,8 +8,11 @@ export default props =>{
 
     return(
         <Menu{...props}>
-            <Link className="menu-item" to='/'>Inicio</Link>
-            <Link className="menu-item" to='/works'>Trabajos</Link>
+            <Link className="menu-item" to='/'>Home</Link>
+            <Link className="menu-item" to='/works'>Works</Link>
+            <Link className="menu-item" to='skills'>Skills</Link>
+            <Link className="menu-item" to='/experience'>Experience</Link>
+            <Link className="menu-item" to='/education'>Education</Link>
         </Menu>
     )
 }
