@@ -1,10 +1,29 @@
 import React, { Component } from "react";
+import { Route, Routes } from 'react-router-dom';
 import Home from './Home/Home';
+import Skills from './Skills/Skills';
+import Works from './Works/Works';
+import Experience from './Experience/Experience';
+import Education from './Education/Education';
 
-class Main extends Component {
-  render() {
-    return <div><Home/></div>;
-  }
+
+function Main(){
+
+    return <div className="mainContainer">
+          {/* <Routes>
+            <Route element={<Home/>} path="/"/>
+            <Route element={<Skills/>} path="/skills"/>
+            <Route element={<Works/>} path="/works"/>
+            <Route element={<Experience/>} path="/experience"/>
+            <Route element={<Education/>} path="/education"/>
+          </Routes> */}
+          <Home/>
+          <Skills/>
+          <Works/>
+          <Experience/>
+          <Education/>
+        </div>;
+  
 }
 
 export default Main;

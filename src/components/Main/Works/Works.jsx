@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Works extends Component {
-  render() {
-    return <div>Works</div>;
-  }
-}
+const Works = () => {
+  return <section id="works">this is Works</section>;
+};
 
 export default Works;
