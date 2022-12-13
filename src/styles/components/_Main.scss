@@ -1,0 +1,90 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+
+  .bm-item {
+    // display: inline-block;
+    padding: 10px;
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 10px;
+    background:#708f69d3 ;
+    color: #000000;
+    border-radius: 8px;
+    transition: color 0.2s;
+  }
+  
+  
+  /* Change color on hover */
+  .bm-item:hover {
+    color: white;
+    background: #48773E;
+  }
+  
+  /* The rest copied directly from react-burger-menu docs */
+  
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 10px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 30px;
+    width: 30px;
+    margin-top: 60px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #33642e;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background-image: linear-gradient(to bottom, #91ad8bdc, #99c4b9c1, #b9d7ddb5, #e0e9f234, #ffffff08);
+    padding: 10px;
+    font-size: 1.15em;
+    margin-top: 60px;
+    height: 10px;
+    border-radius: 30px 30px 10px 0px;
+    overflow: hidden;
+  }
+
+  .bm-menu::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a4700;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    margin-top: 40px;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    display: none;
+  }
+
+
+  .homeContainer{
+    background: red;
+  }
