@@ -27,9 +27,6 @@ function Nav() {
       }}
     </Media>
 
-    {/* <Link>Home</Link>
-      <Link>Proyectos</Link>
-      <Link>CV</Link>  */}
   </div>
 }
 export default Nav;
