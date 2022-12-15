@@ -24,8 +24,10 @@ const Works = () => {
             </p>
           </div>
         </div>
-        <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-        <a href=""></a>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
       </li>
       <li data-aos="fade-up" data-aos-duration="1500">
         <div className="image">
@@ -36,6 +38,10 @@ const Works = () => {
               Aqui esta la descripcion
             </p>
           </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
@@ -48,6 +54,10 @@ const Works = () => {
             </p>
           </div>
         </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
       </li>
       <li data-aos="fade-right" data-aos-duration="1500">
         <div className="image">
@@ -58,6 +68,10 @@ const Works = () => {
               Aqui esta la descripcion
             </p>
           </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-up" data-aos-duration="1500">
@@ -70,6 +84,10 @@ const Works = () => {
             </p>
           </div>
         </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
         <div className="image">
@@ -80,6 +98,10 @@ const Works = () => {
               Aqui esta la descripcion
             </p>
           </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
     </ul>
