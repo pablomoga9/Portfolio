@@ -24,13 +24,13 @@ function Nav() {
     <Media query="(min-width: 600px)">
       {matches => {
         return matches ? <div className="separatedNav">
-          <BrowserRouter>
-            <Link className="navItem" to="/">Home</Link>
-            <Link className="navItem" to="/skills">Skills</Link>
-            <Link className="navItem" to="/projects">Projects</Link>
-            <Link className="navItem" to="/experience">Experience</Link>
-            <Link className="navItem" to="/education">Education</Link>
-          </BrowserRouter>
+         
+            <a className="navItem" href="#home">Home</a>
+            <a className="navItem" href="#skills">Skills</a>
+            <a className="navItem" href="#works">Projects</a>
+            <a className="navItem" href="#experience">Experience</a>
+            <a className="navItem" href="#education">Education</a>
+          
           <a className="navLogo" href="https://github.com/pablomoga9" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
           <a className="navLogo" href="https://www.linkedin.com/in/pablo-moya-garc%C3%ADa-526588167/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/linkedin-circled--v1.png" alt="" /></a>
         </div> :

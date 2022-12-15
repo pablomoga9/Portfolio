@@ -6,6 +6,68 @@
   }
 
 
+  #home{
+    background: red;
+    height: 400px;
+    h2{
+      position: relative;
+      font-size: 4vw;
+      color: red;
+      -webkit-text-stroke: 0.2vw #373a47;
+      text-transform: uppercase;
+    }
+    h2::before{
+      content: attr(data-text);
+      position: absolute;
+      top:0;
+      left:0;
+      width: 0;
+      height: 100%;
+      color: rgb(0, 207, 207);
+      -webkit-text-stroke: 0vw #373a47;
+      border-right: 2px solid rgb(0, 207, 207);
+      overflow: hidden;
+      animation: animate 6s linear infinite;
+    }
+    @keyframes animate
+    {
+      0%{
+        width: 0;
+      }
+      10%{
+        width: 0;
+      }
+      100%{
+        width: 0;
+      }
+      70%,90%{
+        width: 100%;
+      }
+    }
+  }
+  #skills{
+    background: blue;
+    height: 400px;
+  }
+  #works{
+    background: yellow;
+    height: 400px;
+  }
+  #experience{
+    background: grey;
+    height: 400px;
+  }
+  #education{
+    background: cadetblue;
+    height: 400px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+
   .bm-item {
     // display: inline-block;
     padding: 10px;
