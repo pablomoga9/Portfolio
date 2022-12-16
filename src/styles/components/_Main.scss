@@ -6,7 +6,7 @@
   }
 
 body{
-  background: black;
+  background-image: linear-gradient(to bottom, #0066ff, #693ba8, #5d1f5e, #371229, #000000);
 }
 
 .navLogo{
@@ -17,7 +17,7 @@ body{
 }
 
   #home{
-    background: red;
+    // background: black;
     height: 400px;
     h2{
       position: relative;
@@ -69,6 +69,7 @@ body{
     li{
       margin-top: 30px;
       display: flex;
+      width: 100%;
       .linksContainer{
         display: flex;
         flex-direction: column;
@@ -154,7 +155,7 @@ body{
   }
 
   #skills{
-    background: rgb(200, 200, 255);
+    // background: rgb(200, 200, 255);
     height: 400px;
   }
   #works{
@@ -170,11 +171,11 @@ body{
     }
   }
   #experience{
-    background: grey;
+    // background: grey;
     height: 400px;
   }
   #education{
-    background: cadetblue;
+    // background: cadetblue;
     height: 400px;
   }
 

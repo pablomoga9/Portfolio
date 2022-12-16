@@ -5,7 +5,7 @@ import Skills from './Skills/Skills';
 import Works from './Works/Works';
 import Experience from './Experience/Experience';
 import Education from './Education/Education';
-
+import ParticlesBackground from "../ParticlesBackground";
 
 function Main(){
 
@@ -17,11 +17,13 @@ function Main(){
             <Route element={<Experience/>} path="/experience"/>
             <Route element={<Education/>} path="/education"/>
           </Routes> */}
+          
           <Home/>
           <Skills/>
           <Works/>
           <Experience/>
           <Education/>
+          <ParticlesBackground/>
         </div>;
   
 }
