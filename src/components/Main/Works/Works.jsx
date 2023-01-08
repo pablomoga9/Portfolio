@@ -18,7 +18,7 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={nasa} alt="" />
           <div className="image__overlay">
-            <div className="image__title">NasaApp</div>
+            <div className="image__title">NasaApp (version movil)</div>
             <p className="image__description">
               React ,Node ,Express ,MongoDB , JWT Auth , SASS , AOS , Atlas , Leaflet , Git
             </p>
@@ -33,30 +33,30 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={kmon} alt="" />
           <div className="image__overlay">
-            <div className="image__title">Alimentacion</div>
+            <div className="image__title">K'm0n (version movil)</div>
             <p className="image__description">
-              Aqui esta la descripcion
+            React ,Node ,Express ,MongoDB , JWT Auth , SASS , AOS , Swiper,  Atlas , Leaflet , Git
             </p>
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/AlimentacionFullstack" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://alimentacion.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
         <div className="image">
           <img className="image__img" src={poke} alt="" />
           <div className="image__overlay">
-            <div className="image__title">PokeApp</div>
+            <div className="image__title">PokeApp (version movil)</div>
             <p className="image__description">
-              Aqui esta la descripcion
+              React, SASS, AOS
             </p>
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/pokeApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://poke-q3usybkw8-pablomoga9.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-right" data-aos-duration="1500">
@@ -65,13 +65,13 @@ const Works = () => {
           <div className="image__overlay">
             <div className="image__title">NewsApp</div>
             <p className="image__description">
-              Aqui esta la descripcion
+              React, SASS
             </p>
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/NewsApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://news-app-theta-seven.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-up" data-aos-duration="1500">
@@ -80,13 +80,13 @@ const Works = () => {
           <div className="image__overlay">
             <div className="image__title">JobScanner</div>
             <p className="image__description">
-              Aqui esta la descripcion
+              Node, Express, MongoDB, SQL, Pug, JWT Auth, NodeMailer, Puppeteer (Scraping), Git
             </p>
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/JobOffer" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://jobscanner.herokuapp.com/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
@@ -95,13 +95,13 @@ const Works = () => {
           <div className="image__overlay">
             <div className="image__title">BiblioFront</div>
             <p className="image__description">
-              Aqui esta la descripcion
+              HTML, CSS, Javascript, Firebase Auth, Firebase Storage, Firestore database
             </p>
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/NASA_Final" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/BiblioFront" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://biblio-front-kappa.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
     </ul>

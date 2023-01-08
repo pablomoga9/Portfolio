@@ -1,12 +1,14 @@
-.navContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-  }
+
 
 body{
   background-image: linear-gradient(to bottom, #0066ff, #693ba8, #5d1f5e, #371229, #000000);
+  a{
+    text-decoration: none;
+    color: #dfdfdf;
+  }
+  p{
+    color:white
+  }
 }
 
 .navLogo{
@@ -14,51 +16,122 @@ body{
     background: rgb(208, 208, 208);
     border-radius: 100%;
   }
+  
 }
+.navItem{
+  margin-top: 15px;
+}
+
 
   #home{
     // background: black;
     height: 400px;
-    h2{
-      position: relative;
-      font-size: 4vw;
-      color: red;
-      -webkit-text-stroke: 0.2vw #373a47;
-      text-transform: uppercase;
+    margin-bottom: 400px;
+    margin-top: 150px;
+    h3{
+      color: #2d97f3;
     }
-    h2::before{
-      content: attr(data-text);
-      position: absolute;
-      top:0;
-      left:0;
-      width: 0;
-      height: 100%;
-      color: rgb(0, 207, 207);
-      -webkit-text-stroke: 0vw #373a47;
-      border-right: 2px solid rgb(0, 207, 207);
+    // h2{
+    //   // position: relative;
+    //   font-size: 4vw;
+    //   text-align: start;
+    //   // color: red;
+    //   // -webkit-text-stroke: 0.2vw #373a47;
+    //   // text-transform: uppercase;
+    // }
+    .container{
+      width: 100%;
+      // margin-left: auto;
+      margin-right: auto;
+      text-align: start;
+      margin-top: 25px;
+    }
+    
+    .container h1:nth-child(1) {
+      color: #2d97f3;
+      font-family: 'Fira Code', monospace;
+      font-weight: 800;
+      font-size: 22px;
+      margin: 0 0 0 20%;
+      text-align: left;
+      white-space: nowrap;
       overflow: hidden;
-      animation: animate 6s linear infinite;
+      width: 170px;
+      animation: type 2s steps(40,end) forwards;
     }
-    @keyframes animate
-    {
-      0%{
+    
+    .container h1:nth-child(2) {
+      opacity: 0;
+      font-family: "Work Sans", sans-serif;
+      margin-left: 15%;
+      background: linear-gradient(to right, #95daf8, #72a2f6, #6c88c0);
+      font-weight: 800;
+      font-size: 130px;  
+      width: 830px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      overflow: hidden;
+      animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+    }
+    
+    @keyframes shring-animation {
+      0% {
+        background-position: 0 0;
+        opacity: 0;
         width: 0;
       }
-      10%{
+      1% {
+        background-position: 0 0;
+        opacity: 1;
+        border-right: 1px solid rgba(0, 119, 255, 0.654);
+      }
+      50% {
+        background-position: 400px 0;
+        opacity: 1;
+        border-right: 1px solid rgba(0, 119, 255, 0.654);
+      }
+      100% {
+        background-position: 810px 0;
+        opacity: 1;
+        border-right: 1px solid rgba(0, 119, 255, 0.654);
+      }
+    }
+    
+    @keyframes type {
+      0% {
         width: 0;
+      }
+      1%, 99%{
+        border-right: 1px solid orange;
       }
       100%{
-        width: 0;
-      }
-      70%,90%{
-        width: 100%;
+        border-right: none;
       }
     }
+    
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    .profileContainer{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      h3{
+        font-size: 30px
+      }
+    }
+    
+
   }
 
   .projects{
     list-style: none;
     display: grid;
+
     grid-template-columns: repeat(3,1fr);
     width: 100%;
     margin-left: 70px;
@@ -157,9 +230,18 @@ body{
   #skills{
     // background: rgb(200, 200, 255);
     height: 400px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+    .skillbar{
+      background: blue;
+    }
+    .skillbar-title{
+      background: blue;
+    }
   }
   #works{
-    background-image: linear-gradient(to right top, #003a92, #003876, #002f51, #00222e, #001414);
+    background-image: linear-gradient(to right top, #003a9249, #00377640, #002f5163, #00222e4a, #00141450);
     height: 100%;
     width: 90%;
     margin: auto;
@@ -191,7 +273,7 @@ body{
     /* Our sidebar item styling */
     text-decoration: none;
     margin-bottom: 10px;
-    background:#708f69d3 ;
+    background:#5470add3 ;
     color: #000000;
     border-radius: 8px;
     transition: color 0.2s;
@@ -201,7 +283,7 @@ body{
   /* Change color on hover */
   .bm-item:hover {
     color: white;
-    background: #48773E;
+    background: #3495c5;
   }
   
   /* The rest copied directly from react-burger-menu docs */
@@ -229,12 +311,12 @@ body{
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #33642e;
+    background: #29346d;
   }
   
   /* General sidebar styles */
   .bm-menu {
-    background-image: linear-gradient(to bottom, #91ad8bdc, #99c4b9c1, #b9d7ddb5, #e0e9f234, #ffffff08);
+    background-image: linear-gradient(to bottom, #8b9faddc, #6a90d1c1, #12768ab5, #6d7ff534, #2553b108);
     padding: 10px;
     font-size: 1.15em;
     margin-top: 60px;
@@ -267,3 +349,13 @@ body{
   .homeContainer{
     background: red;
   }
+
+  .separatedNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
