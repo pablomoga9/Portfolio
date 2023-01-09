@@ -433,9 +433,27 @@ body{
   }
 
 
-  .homeContainer{
-    background: red;
+ .homeContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  section{
+    width: 70%;
   }
+  .description{
+    width: 30%;
+    margin-right: 10%;
+    color: #000000;
+    background: linear-gradient(to right, #95daf8e9, #72a2f6e1, #6c88c0e0);
+    padding: 15px;
+    font-size: 20px;
+    top: -50px;
+    font-weight: bold;
+    border-radius: 8px;
+    // text-align: end;
+  }
+ }
 
   .separatedNav{
     display: flex;

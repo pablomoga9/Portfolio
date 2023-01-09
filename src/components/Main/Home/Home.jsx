@@ -5,7 +5,8 @@ AOS.init();
 
 class Home extends Component {
   render() {
-    return <section data-aos="fade-right" data-aos-duration="1500" id="home">
+    return <div className="homeContainer">
+      <section data-aos="fade-right" data-aos-duration="1500" id="home">
       <img src="" alt="" />
       <div className="container">
         <h1>Hi, my name is</h1>
@@ -17,7 +18,9 @@ class Home extends Component {
         <a className="navLogo" href="https://www.linkedin.com/in/pablo-moya-garc%C3%ADa-526588167/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/linkedin-circled--v1.png" alt="" /></a>
       </div>
       <p></p>
-    </section>;
+    </section>
+      <p data-aos="fade-right" data-aos-duration="3000" className="description">I have always been passionate about technology and started studying everything related to the development of video games in its most technical aspects. To complete my profile, I decided to get into web and software development, which ended up captivating me. I am currently looking to further develop my professional career and bring my hardworking side and all my knowledge to the team.</p>
+    </div>
   }
 }
 
