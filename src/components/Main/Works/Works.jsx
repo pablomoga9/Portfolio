@@ -18,7 +18,7 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={nasa} alt="" />
           <div className="image__overlay">
-            <div className="image__title">NasaApp (version movil)</div>
+            <div className="image__title">NasaApp (mobile version)</div>
             <p className="image__description">
               React ,Node ,Express ,MongoDB , JWT Auth , SASS , AOS , Atlas , Leaflet , Git
             </p>
@@ -33,7 +33,7 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={kmon} alt="" />
           <div className="image__overlay">
-            <div className="image__title">K'm0n (version movil)</div>
+            <div className="image__title">K'm0n (mobile version)</div>
             <p className="image__description">
             React ,Node ,Express ,MongoDB , JWT Auth , SASS , AOS , Swiper,  Atlas , Leaflet , Git
             </p>
@@ -48,7 +48,7 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={poke} alt="" />
           <div className="image__overlay">
-            <div className="image__title">PokeApp (version movil)</div>
+            <div className="image__title">PokeApp (mobile version)</div>
             <p className="image__description">
               React, SASS, AOS
             </p>
@@ -105,7 +105,7 @@ const Works = () => {
         </div>
       </li>
     </ul>
-  </section>;
+  </section>
 };
 
 export default Works;
