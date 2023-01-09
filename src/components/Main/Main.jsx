@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home/Home';
 import Skills from './Skills/Skills';
@@ -8,6 +8,10 @@ import Education from './Education/Education';
 import ParticlesBackground from "../ParticlesBackground";
 
 function Main(){
+
+  useEffect(()=>{
+    document.title = 'Pablo Moya';
+  },[])
 
     return <div className="mainContainer">
           {/* <Routes>
