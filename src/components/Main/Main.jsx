@@ -14,20 +14,13 @@ function Main(){
   },[])
 
     return <div className="mainContainer">
-          {/* <Routes>
-            <Route element={<Home/>} path="/"/>
-            <Route element={<Skills/>} path="/skills"/>
-            <Route element={<Works/>} path="/works"/>
-            <Route element={<Experience/>} path="/experience"/>
-            <Route element={<Education/>} path="/education"/>
-          </Routes> */}
+          
           
           <Home/>
           <Works/>
           <Experience/>
           <Education/>
           <Skills/>
-          <ParticlesBackground/>
         </div>;
   
 }

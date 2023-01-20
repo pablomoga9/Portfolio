@@ -56,7 +56,7 @@ const Skills = () => {
       background: '#01A9DB',
     },
   };
-  return <><h2>Skills</h2>
+  return <><h2 className="skillsTitle">Skills</h2>
     <section id="skills"><SkillBar barBackground = {'transparent'} height={'2vh'} colors={colors} skills={skills}/></section>
   </>
 };
