@@ -23,10 +23,10 @@ function Main(){
           </Routes> */}
           
           <Home/>
-          <Skills/>
           <Works/>
           <Experience/>
           <Education/>
+          <Skills/>
           <ParticlesBackground/>
         </div>;
   

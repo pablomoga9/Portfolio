@@ -34,6 +34,11 @@ const Education = () => {
       <p>sept. 2020 - may. 2022</p>
     </article>
     </section>
+   
+    <article className="courses">
+       <h3>Courses & certificates</h3>
+       <p className="company"></p>
+    </article>
   </>
 };
 

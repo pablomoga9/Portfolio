@@ -19,7 +19,7 @@ class Home extends Component {
       </div>
       <p></p>
     </section>
-      <p data-aos="fade-right" data-aos-duration="3000" className="description">I have always been passionate about technology and started studying everything related to the development of video games in its most technical aspects. To complete my profile, I decided to get into web and software development, which ended up captivating me. I am currently looking to further develop my professional career and bring my hardworking side and all my knowledge to the team.</p>
+      <p data-aos="fade-right" data-aos-duration="3000" className="description">I started studying everything related to video games development in its most technical aspects. To complete my profile, I decided to get into web and software development, which ended up captivating me. I am currently looking to further develop my professional career and bring my hardworking side and all my knowledge to the team.</p>
     </div>
   }
 }

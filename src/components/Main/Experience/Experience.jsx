@@ -23,11 +23,11 @@ const Experience = () => {
         </li>
       </ul>
     </article>
-    <article>
+    {/* <article>
       <h3>Catering</h3>
       <p className="company">Icecobar</p>
       <p>jul. 2019 - nov. 2020</p>
-    </article>
+    </article> */}
   </section>
   </>
 };

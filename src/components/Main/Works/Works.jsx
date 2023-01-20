@@ -5,6 +5,8 @@ import kmon from './img/Kmon.PNG';
 import nasa from './img/nasaApp.PNG';
 import news from './img/newsApp.PNG';
 import poke from './img/pokeApp.PNG';
+import chat from './img/chatSelected.PNG';
+import podcast from './img/zaraHomeFilter.PNG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -41,7 +43,7 @@ const Works = () => {
         </div>
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/AlimentacionFullstack" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://alimentacion.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://alimentacion.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
@@ -56,7 +58,7 @@ const Works = () => {
         </div>
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/pokeApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://poke-q3usybkw8-pablomoga9.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://poke-q3usybkw8-pablomoga9.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-right" data-aos-duration="1500">
@@ -71,7 +73,7 @@ const Works = () => {
         </div>
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/NewsApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://news-app-theta-seven.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://news-app-theta-seven.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-up" data-aos-duration="1500">
@@ -86,7 +88,7 @@ const Works = () => {
         </div>
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/JobOffer" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://jobscanner.herokuapp.com/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://jobscanner.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
       <li data-aos="fade-left" data-aos-duration="1500">
@@ -101,7 +103,37 @@ const Works = () => {
         </div>
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/BiblioFront" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://biblio-front-kappa.vercel.app/"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://biblio-front-kappa.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
+      </li>
+      <li data-aos="fade-left" data-aos-duration="1500">
+        <div className="image">
+          <img className="image__img" src={chat} alt="" />
+          <div className="image__overlay">
+            <div className="image__title">SocketChat</div>
+            <p className="image__description">
+              React, Socket.io, MongoDB, Node, Express, Styled Components
+            </p>
+          </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/socket-chat" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
+      </li>
+      <li data-aos="fade-left" data-aos-duration="1500">
+        <div className="image">
+          <img className="image__img" src={podcast} alt="" />
+          <div className="image__overlay">
+            <div className="image__title">Podcaster</div>
+            <p className="image__description">
+              React, SASS
+            </p>
+          </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/zara-test" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://podcaster-two.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
     </ul>
