@@ -169,7 +169,8 @@ body {
     padding-bottom: 40px;
     
     li{
-      margin-top: 30px;
+      margin-top: 75px;
+      margin-bottom: 5px;
       display: flex;
       width: 100%;
       .linksContainer{
@@ -539,6 +540,26 @@ body {
 
   .footerContainer{
     padding: 50px;
+  }
+
+
+  .technologies{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    max-width: 20px;
+    margin-top: 20px;
+    gap: 10px;
+    img{
+      border-radius: 50px;
+      background: rgb(54, 32, 70);
+      max-width: 45px;
+      max-height: 45px;
+      padding: 2px;
+    }
+    .stretch{
+      padding-left: 9px;
+      padding-right: 9px;
+    }
   }
 
 
