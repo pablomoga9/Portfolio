@@ -8,6 +8,7 @@ import poke from './img/pokeApp.PNG';
 import chat from './img/chatSelected.PNG';
 import podcast from './img/zaraHomeFilter.PNG';
 import portfolio from './img/portfolioImg.PNG';
+import three from './img/threeMc.PNG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -150,6 +151,21 @@ const Works = () => {
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/Portfolio/tree/master" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
           <a href="https://portfolio-zeta-olive-73.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
+      </li>
+      <li data-aos="fade-left" data-aos-duration="1500">
+        <div className="image">
+          <img className="image__img" src={three} alt="" />
+          <div className="image__overlay">
+            <div className="image__title">Portfolio</div>
+            <p className="image__description">
+              React, SASS
+            </p>
+          </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/three.js-MC" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://three-js-mc.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
       </li>
     </ul>
