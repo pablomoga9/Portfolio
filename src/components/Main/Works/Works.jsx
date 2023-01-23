@@ -157,9 +157,9 @@ const Works = () => {
         <div className="image">
           <img className="image__img" src={three} alt="" />
           <div className="image__overlay">
-            <div className="image__title">Portfolio</div>
+            <div className="image__title">Minecraft Clone</div>
             <p className="image__description">
-              React, SASS
+              React, Three.js, Cannon
             </p>
           </div>
         </div>
