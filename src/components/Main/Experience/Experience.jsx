@@ -5,7 +5,13 @@ const Experience = () => {
     <h2 className="expTitle">Experience</h2>
     <section id="experience">
     <article data-aos="fade-right" data-aos-duration="1500">
-      <h3>Unity Developer</h3>
+      <h3>Unity & Backend Developer</h3>
+      <div className="technologies expTechno">
+        <img src="https://preview.redd.it/tu3gt6ysfxq71.png?auto=webp&s=10ab55d9dc09e7ed6ea59bd5916800a5272d5969" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" alt="" />
+        <img src="https://friconix.com/jpg/fi-cwluxx-symfony.jpg" alt="" />
+      </div>
       <p className="company">Multiplicalia</p>
       <p>jan. 2022 - jul. 2022</p>
       <ul>
