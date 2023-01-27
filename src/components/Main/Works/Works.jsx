@@ -12,6 +12,7 @@ import three from './img/threeMc.PNG';
 import foundit from './img/foundit.PNG';
 import cryptoBot from './img/cryptoBot.PNG';
 import laravelCRUD from './img/laravelCRUD.PNG';
+import recetasCarousel from './img/recetasCarousel.gif';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -101,28 +102,32 @@ const Works = () => {
         </div>
 
       </li>
-      <li data-aos="fade-left" data-aos-duration="1500">
+      <li data-aos="fade-right" data-aos-duration="1500">
         <div>
           <div className="image">
-            <img className="image__img" src={poke} alt="" />
+            <img className="image__img" src={recetasCarousel} alt="" />
             <div className="image__overlay">
-              <div className="image__title">PokeApp (mobile version)</div>
+              <div className="image__title">RecipeApp</div>
               <p className="image__description">
-                React, SASS, AOS
+                React, Laravel, PHP, MySQL, Styled Components
               </p>
             </div>
           </div>
           <div className="technologies">
+          <img src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" alt="" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" alt="React" />
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="" />
+            <img src="https://miro.medium.com/max/480/1*Iohnw2aOQ5EBghVoqKA7VA.png" alt="" />
           </div>
         </div>
         <div className="linksContainer">
-          <a href="https://github.com/pablomoga9/pokeApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
-          <a href="https://poke-q3usybkw8-pablomoga9.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+          <a href="https://github.com/pablomoga9/salusplay-test" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a className="notReady" href=""><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
 
       </li>
+      
       <li data-aos="fade-right" data-aos-duration="1500">
         <div>
           <div className="image">
@@ -235,6 +240,28 @@ const Works = () => {
         <div className="linksContainer">
           <a href="https://github.com/pablomoga9/zara-test" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
           <a href="https://podcaster-two.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
+        </div>
+
+      </li>
+      <li data-aos="fade-left" data-aos-duration="1500">
+        <div>
+          <div className="image">
+            <img className="image__img" src={poke} alt="" />
+            <div className="image__overlay">
+              <div className="image__title">PokeApp (mobile version)</div>
+              <p className="image__description">
+                React, SASS, AOS
+              </p>
+            </div>
+          </div>
+          <div className="technologies">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" alt="React" />
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" alt="" />
+          </div>
+        </div>
+        <div className="linksContainer">
+          <a href="https://github.com/pablomoga9/pokeApp" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/github.png" alt="" /></a>
+          <a href="https://poke-q3usybkw8-pablomoga9.vercel.app/" target="_blank"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-rocket-advertisement-tanah-basah-glyph-tanah-basah.png" alt="" /></a>
         </div>
 
       </li>
