@@ -13,6 +13,7 @@ import foundit from './img/foundit.PNG';
 import cryptoBot from './img/cryptoBot.PNG';
 import laravelCRUD from './img/laravelCRUD.PNG';
 import recetasCarousel from './img/recetasCarousel.gif';
+import mcGif from './img/mcGif.gif';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -202,7 +203,7 @@ const Works = () => {
       <li data-aos="fade-right" data-aos-duration="1500">
         <div>
           <div className="image">
-            <img className="image__img" src={three} alt="" />
+            <img className="image__img" src={mcGif} alt="" />
             <div className="image__overlay">
               <div className="image__title">Minecraft Clone</div>
               <p className="image__description">
