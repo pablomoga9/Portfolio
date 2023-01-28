@@ -3,11 +3,11 @@ import SkillBar from 'react-skillbars';
 
 const Skills = () => {
   const skills = [
-    { type: 'Javascript', level: 70,  color: {
+    { type: 'Javascript', level: 80,  color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'C#', level: 50, color: {
+    { type: 'C#', level: 55 , color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
@@ -15,35 +15,39 @@ const Skills = () => {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
+    { type: 'PHP', level: 65, color: {
+      bar: '#4288d0',
+      title: { text: '#fff', background: '#124e8c' }
+    } },
     { type: 'CSS', level: 75, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'MongoDB', level: 65, color: {
+    { type: 'MongoDB', level: 80, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'SQL', level: 60, color: {
+    { type: 'SQL', level: 70, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'React', level: 60, color: {
+    { type: 'Laravel', level: 65, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'Node', level: 70, color: {
+    { type: 'React', level: 75, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'Angular', level: 45, color: {
+    { type: 'Node', level: 75, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'Java', level: 30, color: {
+    { type: 'Angular', level: 50, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'Git', level: 60, color: {
+    { type: 'Git', level: 90, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
