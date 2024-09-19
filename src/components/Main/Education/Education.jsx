@@ -5,7 +5,7 @@ import udemyLogo from '../Works/img/udemyLogo.png';
 
 const Education = () => {
   return <><h2>Education</h2>
-    <section id="education">
+   <section id="education">
     <article data-aos="fade-right" data-aos-duration="1500">
       <h3>Web Applications Development Technique</h3>
       <p className="company">CESUR</p>
@@ -76,10 +76,28 @@ const Education = () => {
         </li>
       </ul>
     </article>
-    </section>
+   </section>
    
     <article className="courses" data-aos="fade-down" data-aos-duration="1500">
        <h3>Courses & certificates</h3>
+       <div className="certificate">
+       <p><b>ASP.NET MVC Master(ADO.NET + 3 Layers + Store Procedures)</b></p>
+        <div className="courseCompany">
+          <p>Udemy</p>
+          <img className="companyLogo" src={udemyLogo} alt="" />
+        </div>
+        
+        <p>Expedition: may. 2023</p>
+       </div>
+       <div className="certificate">
+       <p><b>Design Patterns and SOLID Principles in C# .NET</b></p>
+        <div className="courseCompany">
+          <p>Udemy</p>
+          <img className="companyLogo" src={udemyLogo} alt="" />
+        </div>
+        
+        <p>Expedition: sep. 2023</p>
+       </div>
        <div className="certificate">
        <p><b>JavaScript Algorithms and Data Structures</b></p>
         <div className="courseCompany">
