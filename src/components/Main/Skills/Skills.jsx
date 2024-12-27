@@ -3,11 +3,15 @@ import SkillBar from 'react-skillbars';
 
 const Skills = () => {
   const skills = [
-    { type: 'Javascript', level: 80,  color: {
+    { type: 'Javascript', level: 70,  color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
-    { type: 'C#', level: 55 , color: {
+    { type: 'C#', level: 70 , color: {
+      bar: '#4288d0',
+      title: { text: '#fff', background: '#124e8c' }
+    } },
+    { type: 'Flutter', level: 60, color: {
       bar: '#4288d0',
       title: { text: '#fff', background: '#124e8c' }
     } },
